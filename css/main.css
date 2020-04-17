@@ -24,7 +24,8 @@ body {
 		width: 728px;
 	}
 	.feed{
-		padding: 16px 0;
+		width: 100%;
+		padding: 16px;
 	}
 }
 
@@ -39,8 +40,10 @@ img {
 	border: 0;
 }
 
+
 .container {
 	margin: 0 auto;
+	padding: 0;
 }
 
 .header .container{
@@ -82,7 +85,6 @@ img {
 .stories {
 	width: 100%;
 	padding: 16px 0;
-	margin: 0 10px;
 }
 
 .user__thumb--new {
@@ -124,6 +126,8 @@ img {
 .feed {
 	width: 100%;
 	flex-direction: column;
+	margin: 0;
+	display: flex;
 }
 
 .feed__card {
@@ -131,7 +135,7 @@ img {
 	border-radius: 10px;
 	border: 1px solid rgba(0, 0, 0, .1);
 	width: 100%;
-	margin: 10px;
+	margin: 10px 0;
 }
 
 .feed__card img {
@@ -187,6 +191,7 @@ img {
 }
 
 .post {
-	background-color: white;
+	background-color: #fafafa;
 	margin-bottom: 30px;
+	padding: 0 10px;
 }
